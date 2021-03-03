@@ -3,5 +3,5 @@
 # you need to run it as SUDO!!
 ## 1. Install python3, pip
 ## 2. Run:pip install PySimpleGUI && pip install paramiko 
-## 3. Run it python3 main.py
+## 3. Run it sudo python3 main.py
 
