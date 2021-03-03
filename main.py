@@ -1,6 +1,7 @@
 import PySimpleGUI as sg
 import os
 sg.theme('Light Blue 3')
+os.system("chmod +x jk") # chmod jailbreak
 
 def button2():
     print('Starting')
