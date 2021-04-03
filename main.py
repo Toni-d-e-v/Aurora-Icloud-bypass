@@ -10,8 +10,10 @@ def button2():
 
 def button1():
     print('Launching jailbreak')
-    os.system("cd jailbreak")
-    os.system("sudo ./jk")
+    print('Type your password:')
+
+  #  os.system("cd jailbreak")
+    os.system("sudo ./jk") 
     os.system("echo done")
 
 
