@@ -8,4 +8,4 @@
    3. sudo python3 main.py
 ```
 ## What does it do.
-Frist it will launch jailbreak tool to jailbreak your device, when thats done button bypass will launch 0 day exploit in IOS that has not been fixed it should work on ip5,6,7,8,10,11 and 12 IOS 12 was tested and it works IOS 13 and 14 are not tested but with 13 should also work fine
+First it will launch jailbreak tool to jailbreak your device, when thats done button bypass will launch 0 day exploit in IOS that has not been fixed it should work on ip5,6,7,8,10,11 and 12 IOS 12 was tested and it works IOS 13 and 14 are not tested but with 13 should also work fine
