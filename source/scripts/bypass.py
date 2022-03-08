@@ -118,7 +118,7 @@ class PhoneConnect:
 
 
 if __name__ == '__main__':
-
+    print("Aurora Bypass by Toni.Dev")
     server = PhoneConnect()
 
     thread = Thread(target=server.start)
