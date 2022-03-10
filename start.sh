@@ -69,7 +69,7 @@ echo "Features: Bypass Activation lock, Remove old icloud account, root shell to
 echo "Select one option using up/down keys and enter to confirm:"
 echo
 
-options=("Automatic Icloud bypass" "Remove old account (JAILBREAK REQUIRED)" "Jailbreak the device" "Root shell to Idevice" "Exit","Dump Sim card files (IN WORK)")
+options=("Automatic Icloud bypass" "Remove old account (JAILBREAK REQUIRED)" "Jailbreak the device" "Root shell to Idevice" "Dump Sim card files from device (IN WORK)" "Exit")
 
 select_option "${options[@]}"
 choice=$?
@@ -95,8 +95,12 @@ elif [ $choice = "3" ]; then
     ./source/root_shell.sh
 elif [ $choice = "4" ]; then
     clear
-    chmod +x ./source/root_shell.sh
-    ./source/simfix.sh
+    chmod +x ./source/simfrom.sh
+    ./source/simfrom.sh
+elif [ $choice = "5" ]; then
+    clear
+    chmod +x ./source/simto.sh
+    ./source/simto.sh
 else
     echo "Exiting..."
     clear
