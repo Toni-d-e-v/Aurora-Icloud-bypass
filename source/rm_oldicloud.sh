@@ -16,4 +16,4 @@ fi
 echo "Installing required libs..."
 sudo pip3 install paramiko
 echo "Launching shell"
-python3 ./scripts/remove_oldicloud.py
+python3 ./source/scripts/remove_oldicloud.py
