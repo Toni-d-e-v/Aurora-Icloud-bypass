@@ -17,4 +17,4 @@ fi
 echo "Installing required libs..."
 sudo pip3 install paramiko
 echo "Launching shell"
-python3 ./scripts/shell.py
+python3 ./source/scripts/shell.py

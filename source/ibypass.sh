@@ -18,23 +18,23 @@ else
   echo "pip3 is installed"
 fi
 echo "Getting ready to jailbreak..."pip paramiko
-sudo ./exe/jk
+sudo ./source/exe/jk
 echo "If jailbreak was successfull you should continue"
 read -p "Press button R to restart jailbreak or press enter to continue"
 if [ "$REPLY" == "r" ]; then
   echo "Restarting jailbreak..."
-  sudo ./exe/jk
+  sudo ./source/exe/jk
 else 
   echo "You selected to continue"
 fi
 echo "Checking for python scripts..."
-if [ -f "./scripts/bypass.py" ]; then
+if [ -f "./source/scripts/bypass.py" ]; then
   echo "bypass.py found"
 else
   echo "bypass.py not found"
   exit 1
 fi
-if [ -f "./scripts/usbmux.py" ]; then
+if [ -f "./source/scripts/usbmux.py" ]; then
   echo "usbmux.py found"
 else
   echo "usbmux.py not found"
@@ -54,5 +54,5 @@ do
   echo "Starting at 5 $i"
   sleep 1
 done
-python3 ./scripts/bypass.py
+python3 ./source/scripts/bypass.py
 exit 0
