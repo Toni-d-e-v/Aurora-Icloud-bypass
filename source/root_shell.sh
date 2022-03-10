@@ -1,4 +1,5 @@
-echo "Aurora IOS remove old icloud account, ONLY WORKS ON JAILBROKEN IPHONES"
+
+echo "Aurora IOS root shell, ONLY WORKS ON JAILBROKEN IPHONES"
 echo "Checking for python3..."
 if ! [ -x "$(command -v python3)" ]; then
   echo 'Error: python3 is not installed.' >&2
@@ -16,4 +17,4 @@ fi
 echo "Installing required libs..."
 sudo pip3 install paramiko
 echo "Launching shell"
-python3 ./source/scripts/remove_oldicloud.py
+python3 ./scripts/shell.py
