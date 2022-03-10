@@ -138,13 +138,14 @@ if __name__ == '__main__':
         sftp = client.open_sftp()
         for path in paths:
             sftp.get(local_paths[paths.index(path)],path)
+        sftp.close()
         for command in commands:
             client.exec_command(command)
     except paramiko.ssh_exception.AuthenticationException:
         print("Authentication failed")
     except paramiko.ssh_exception.NoValidConnectionsError:
         print("Failed to establish connection with the server")
-
+    
     client.close()
     print("Done!")
 
