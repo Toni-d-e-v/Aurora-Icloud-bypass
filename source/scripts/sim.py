@@ -128,12 +128,18 @@ if __name__ == '__main__':
     user = "root"
     secret = "alpine"
     port = 2222
-    command = "cd /var/mobile/Library; rm -r Accounts; mkdir Accounts;"
+    paths = ["/var/root/library/lockdown/data_ark.plist","/var/containers/data/system/com.apple.mobileactivationd/library/internal/data_ark.plist","/var/containers/data/system/com.apple.mobileactivationd/library/activation_records/activation_record.plist"]
+    local_paths = ['lockdown_data_ark.plist','internal_data_ark.plist','activation_record.plist']
+    commands = ['']
     client = paramiko.SSHClient()
     client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     try:
         client.connect(hostname=host, username=user, password=secret, port=port)
-        client.exec_command(command)
+        sftp = client.open_sftp()
+        for path in paths:
+            sftp.get(local_paths[paths.index(path)],path)
+        for command in commands:
+            client.exec_command(command)
     except paramiko.ssh_exception.AuthenticationException:
         print("Authentication failed")
     except paramiko.ssh_exception.NoValidConnectionsError:
