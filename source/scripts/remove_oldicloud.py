@@ -129,11 +129,15 @@ if __name__ == '__main__':
     secret = "alpine"
     port = 2222
     command = "cd /var/mobile/Library; rm -r Accounts; mkdir Accounts;"
+    command_1 = "cd /var/root/Library/Lockdown && echo 'FactoryActivated' >> com.apple.mobile.lockdown_cache-ActivationState"
     client = paramiko.SSHClient()
     client.set_missing_host_key_policy(paramiko.AutoAddPolicy())
     try:
         client.connect(hostname=host, username=user, password=secret, port=port)
         client.exec_command(command)
+        client.exec_command(command_1)
+        print("PLEASE RESTART YOUR PHONE")
+
     except paramiko.ssh_exception.AuthenticationException:
         print("Authentication failed")
     except paramiko.ssh_exception.NoValidConnectionsError:
