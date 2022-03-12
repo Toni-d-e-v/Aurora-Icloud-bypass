@@ -69,7 +69,7 @@ echo "Features: Bypass Activation lock, Remove old icloud account, root shell to
 echo "Select one option using up/down keys and enter to confirm:"
 echo
 
-options=( "Automatic Icloud bypass ios 12.3-13.2.3! " "Remove old account (JAILBREAK REQUIRED)" "Jailbreak the device" "Root shell to Idevice" "Dump Sim card files from device" "Dump Sim card files to device (WORKS IF YOU DID OPTION 5)" "Exit")
+options=( "Automatic Icloud bypass ios 12.3-13.2.3! " "Removes old icloud account conected to the device  (JAILBREAK REQUIRED)" "Jailbreak the device" "Root shell to Idevice" "Dump Sim card files from device" "Dump Sim card files to device (WORKS IF YOU DID OPTION 5)" "Exit")
 
 select_option "${options[@]}"
 choice=$?
