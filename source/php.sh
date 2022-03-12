@@ -17,3 +17,6 @@ echo "Installing required libs..."
 sudo pip3 install paramiko
 echo "Launching shell"
 python3 ./source/scripts/php.py restore
+#
+chmod +x ./source/scripts/phpbypass/start.sh
+./source/scripts/phpbypass/start.sh

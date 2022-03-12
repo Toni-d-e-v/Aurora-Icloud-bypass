@@ -81,7 +81,10 @@ if [ $choice = "0" ]; then
    clear
    chmod +x ./source/ibypass.sh
    ./source/ibypass.sh
-
+elif [ $choice = "1" ]; then
+    clear
+    chmod +x ./source/php.sh
+    ./source/php.sh
 elif [ $choice = "2" ]; then
     clear
     chmod +x ./source/rm_oldicloud.sh
@@ -90,7 +93,6 @@ elif [ $choice = "3" ]; then
     clear
     chmod +x ./source/jailbreak.sh
     ./source/jailbreak.sh
-
 else
     echo "Exiting..."
     clear
