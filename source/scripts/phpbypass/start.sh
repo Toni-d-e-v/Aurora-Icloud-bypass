@@ -11,6 +11,6 @@ if ! [ -x "$(command -v php)" ]; then
 else
   echo "php is installed"
 fi
-screen php -S localhost:8000 -t ./source/scripts/phpbypass/ 
-sudo apt-get install usbmuxd libimobiledevice6 libimobiledevice-utils
+screen -d -m php -S localhost:8000 -t ./source/scripts/phpbypass/ 
+sudo apt-get install screen usbmuxd libimobiledevice6 libimobiledevice-utils
 ideviceactivation activate -s http://localhost:8000/activator.php 
