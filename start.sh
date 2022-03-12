@@ -69,7 +69,7 @@ echo "Features: Bypass Activation lock, Remove old icloud account, root shell to
 echo "Select one option using up/down keys and enter to confirm:"
 echo
 
-options=( "Automatic Icloud bypass ios 12.3-13.2.3! " "Removes old icloud account conected to the device  (JAILBREAK REQUIRED)" "Jailbreak the device" "Root shell to Idevice" "Dump Sim card files from device" "Dump Sim card files to device (WORKS IF YOU DID OPTION 5)" "Exit")
+options=( "Icloud bypass IOS 12.3-13.2.3! NO SIM CARD (AUTOMATIC ONE)" "PHP ICLOUD BYPASS WITH SIM (AUTOMATIC ONE)" "Removes old icloud account conected to the device  (JAILBREAK REQUIRED)" "Jailbreak the device" "Exit")
 
 select_option "${options[@]}"
 choice=$?
@@ -81,26 +81,16 @@ if [ $choice = "0" ]; then
    clear
    chmod +x ./source/ibypass.sh
    ./source/ibypass.sh
-elif [ $choice = "1" ]; then
+
+elif [ $choice = "2" ]; then
     clear
     chmod +x ./source/rm_oldicloud.sh
     ./source/rm_oldicloud.sh
-elif [ $choice = "2" ]; then
+elif [ $choice = "3" ]; then
     clear
     chmod +x ./source/jailbreak.sh
     ./source/jailbreak.sh
-elif [ $choice = "3" ]; then
-    clear
-    chmod +x ./source/root_shell.sh
-    ./source/root_shell.sh
-elif [ $choice = "4" ]; then
-    clear
-    chmod +x ./source/simfrom.sh
-    ./source/simfrom.sh
-elif [ $choice = "5" ]; then
-    clear
-    chmod +x ./source/simto.sh
-    ./source/simto.sh
+
 else
     echo "Exiting..."
     clear

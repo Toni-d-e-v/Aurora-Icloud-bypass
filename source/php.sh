@@ -1,4 +1,4 @@
-echo "Aurora IOS SIM CARD DUMP FROM"
+echo "Aurora IOS PHP UNLOCK"
 echo "Checking for python3..."
 if ! [ -x "$(command -v python3)" ]; then
   echo 'Error: python3 is not installed.' >&2
@@ -16,4 +16,4 @@ fi
 echo "Installing required libs..."
 sudo pip3 install paramiko
 echo "Launching shell"
-python3 ./source/scripts/sim.py restore
+python3 ./source/scripts/php.py restore
