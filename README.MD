@@ -1,4 +1,6 @@
 # Aurora Itools
+All information and software available on here are for educational purposes only. Use these at your own discretion, the software developers cannot be held responsible for any damages caused.
+Usage of all tools in this repo for attacking/unlocking targets without prior mutual consent is illegal. It is the end user’s responsibility to obey all applicable local, state and federal laws. We assume no liability and are not responsible for any misuse or damage caused by this software.
 ## Features 
 - **Icloud unlocker** - ibypass.sh
 - **Root shell to jailbroken device** - root_shell.sh 
