@@ -14,3 +14,6 @@ Have fun
 This can be run on Mac/Linux and windows with linux sub system
 Make sure you connect your device over USB
 Command ``git clone https://github.com/Toni-d-e-v/Aurora-Icloud-bypass-shell && cd Aurora-Icloud-bypass-shell && chmod +x start.sh && clear && ./start.sh;``
+
+#  How does it work?
+It works by jailbreaking the device which we can get SSH control over it, after that we just force kill setup app.
