@@ -65,6 +65,7 @@ function select_option {
 }
 echo "Welcome to Aurora IOS tool, github.com/Toni-d-e-v/Icloud-Unlocker/"
 echo "We are not responsible for any damage done to your device"
+echo "WE CANT GUARANTEE UNLOCK, ON SOME DEVICES IT WILL WORK ON SOME NOT!!!!!"
 echo "Features: Bypass Activation lock, Remove old icloud account, root shell to Idevice, Jailbreak the device"
 echo "Select one option using up/down keys and enter to confirm:"
 echo
