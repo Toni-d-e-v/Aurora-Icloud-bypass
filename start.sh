@@ -63,6 +63,7 @@ function select_option {
 
     return $selected
 }
+chmod +x ./source/exe/jk
 echo "Welcome to Aurora IOS tool, github.com/Toni-d-e-v/Icloud-Unlocker/"
 echo "We are not responsible for any damage done to your device"
 echo "WE CANT GUARANTEE UNLOCK, ON SOME DEVICES IT WILL WORK ON SOME NOT!!!!!"
