@@ -1,23 +1,32 @@
 # Aurora 
 ![image](https://github.com/Toni-d-e-v/Aurora-Icloud-bypass/assets/62844491/a1f00c97-af2f-4a97-83db-97e6db7a408e)
 
-## DISCLAIMER
-**All information and software available on here are for educational purposes only. Use these at your own discretion, the software developers cannot be held responsible for any damages caused.
-Usage of all tools in this repo for attacking/unlocking targets without prior mutual consent is illegal. It is the end user’s responsibility to obey all applicable local, state and federal laws. We assume no liability and are not responsible for any misuse or damage caused by this software.**
+# Disclaimer
 
-## Features 
-- **Icloud unlocker** - ibypass.sh
-- **Root shell to jailbroken device** - root_shell.sh 
-- **Remove old Icloud** **YOU CANT DIRECTLY AFTER THIS ADD YOU ACCOUNT YOU NEED TO TRY IT MULTIPLE TIMES AND GLITCH IT IN** if you have pass code 
-- **SIM FIX**  scripts for dumping and restoring sim card files, you dump sim card before restore of the device you restore the device do the bypass and restore the files everything is in the menu - simfrom.sh/simto.sh 
-- **Remove icloud account from device that is activated!** If you cant disable old account you can with this script but do not restore the device!! - rm_oldicloud.sh
+**Important Notice:** This repository and its contents are intended solely for educational purposes. Please exercise caution and discretion when using any information or software provided here. The developers of this software cannot be held liable for any damages incurred through its use. Utilizing any tools from this repository to engage in unauthorized attacks or unlock targets without prior, mutual consent is strictly illegal. It is the responsibility of the end user to comply with all relevant local, state, and federal laws. We assume no liability and bear no responsibility for any misuse or harm resulting from the use of this software.
+
+## Features
+
+This repository offers several functionalities for various purposes:
+
+1. **iCloud Unlocker (ibypass.sh):** This tool assists in iCloud unlocking.
+
+2. **Root Shell for Jailbroken Devices (root_shell.sh):** Provides access to a root shell on jailbroken devices.
+
+3. **Remove Old iCloud Account:** It allows for the removal of old iCloud accounts. Note that after removal, you may need to attempt account addition multiple times and apply various glitching techniques, especially if a passcode is in place.
+
+4. **SIM Fix Scripts (simfrom.sh/simto.sh):** These scripts enable the dumping and restoration of SIM card files. It's important to dump the SIM card files before restoring the device, perform the bypass, and then restore the files. All relevant options are available in the menu.
+
+5. **Remove iCloud Account from Activated Device (rm_oldicloud.sh):** This script can be used to remove an iCloud account from a device that is already activated. Caution: Do not restore the device after using this script.
+
 ## About
-This script will download everything and you just follow instructions this script will work on all devices suported by chackrain so devices from iphone 5s to iphone 10. It should work under ios 14 but some IOS 13 versions dont work.
-Have fun
-## How to run it
-This can be run on Mac/Linux and windows with linux sub system
-Make sure you connect your device over USB
-Command ``git clone https://github.com/Toni-d-e-v/Aurora-Icloud-bypass-shell && cd Aurora-Icloud-bypass-shell && chmod +x start.sh && clear && ./start.sh;``
 
-#  How does it work?
-It works by jailbreaking the device which we can get SSH control over it, after that we just force kill setup app.
+This script simplifies the process by downloading all necessary components. Follow the provided instructions, and it should work seamlessly on devices supported by the Checkra1n jailbreak, spanning from iPhone 5s to iPhone X. It is compatible with iOS 14, although some iOS 13 versions may not be supported. Enjoy exploring its functionalities!
+
+## How to Run
+
+You can run this script on Mac, Linux, or Windows with the Linux subsystem. Ensure that your device is connected via USB, and then execute the following commands:
+
+```bash
+git clone https://github.com/Toni-d-e-v/Aurora-Icloud-bypass-shell && cd Aurora-Icloud-bypass-shell && chmod +x start.sh && clear && ./start.sh;
+```
