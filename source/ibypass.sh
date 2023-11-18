@@ -27,14 +27,19 @@ fi
 # Getting ready to jailbreak
 sudo ./source/exe/jk
 
-# Restarting jailbreak if requested
-read -p "Press 'R' to restart jailbreak or press enter to continue"
-if [ "${REPLY,,}" == "r" ]; then
-  echo "Restarting jailbreak..."
-  sudo ./source/exe/jk
-else
-  echo "You selected to continue"
-fi
+# Ask if jailbreak is done
+while true; do
+  read -p "Is the jailbreak done? (y/n): " yn
+  case $yn in
+    [Yy]* )
+      break;;
+    [Nn]* )
+      echo "Please wait for the jailbreak to complete. Press Ctrl+C to exit if needed."
+      sleep 10;;
+    * )
+      echo "Please answer y or n.";;
+  esac
+done
 
 # Checking for python scripts
 for script in "./source/scripts/bypass.py" "./source/scripts/usbmux.py"; do
