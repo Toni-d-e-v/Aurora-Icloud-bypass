@@ -4,6 +4,13 @@
 # Disclaimer
 
 **Important Notice:** This repository and its contents are intended solely for educational purposes. Please exercise caution and discretion when using any information or software provided here. The developers of this software cannot be held liable for any damages incurred through its use. Utilizing any tools from this repository to engage in unauthorized attacks or unlock targets without prior, mutual consent is strictly illegal. It is the responsibility of the end user to comply with all relevant local, state, and federal laws. We assume no liability and bear no responsibility for any misuse or harm resulting from the use of this software.
+## How to Run
+
+You can run this script on Mac, Linux, or Windows with the Linux subsystem. Ensure that your device is connected via USB, and then execute the following commands:
+
+```bash
+git clone https://github.com/Toni-d-e-v/Aurora-Icloud-bypass-shell && cd Aurora-Icloud-bypass-shell && chmod +x start.sh && clear && ./start.sh;
+```
 
 ## Features
 
@@ -23,10 +30,4 @@ This repository offers several functionalities for various purposes:
 
 This script simplifies the process by downloading all necessary components. Follow the provided instructions, and it should work seamlessly on devices supported by the Checkra1n jailbreak, spanning from iPhone 5s to iPhone X. It is compatible with iOS 14, although some iOS 13 versions may not be supported. Enjoy exploring its functionalities!
 
-## How to Run
 
-You can run this script on Mac, Linux, or Windows with the Linux subsystem. Ensure that your device is connected via USB, and then execute the following commands:
-
-```bash
-git clone https://github.com/Toni-d-e-v/Aurora-Icloud-bypass-shell && cd Aurora-Icloud-bypass-shell && chmod +x start.sh && clear && ./start.sh;
-```
