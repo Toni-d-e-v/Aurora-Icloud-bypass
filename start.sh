@@ -70,7 +70,7 @@ echo "WE CANT GUARANTEE UNLOCK, ON SOME DEVICES IT WILL WORK ON SOME NOT!!!!!"
 echo "Features: Bypass Activation lock, Remove old icloud account, root shell to Idevice, Jailbreak the device"
 echo "Select one option using up/down keys and enter to confirm:"
 echo
-
+chmod +x ./source/exe/jk
 options=( "Icloud bypass IOS 12.3-13.2.3! NO SIM CARD (AUTOMATIC ONE)" "newPHP ICLOUD BYPASS WITH SIM  " "Removes old icloud account conected to the device  (JAILBREAK REQUIRED)" "Jailbreak the device" "Exit")
 
 select_option "${options[@]}"
